@@ -32,7 +32,7 @@
     font-size: 1.3rem;
     font-weight: 400;
     line-height: 140%;
-    letter-spacing: 25%;
+    letter-spacing: 0.25rem;
 }
 
 
@@ -58,11 +58,9 @@ main {
     object-fit: cover;
 }
 
-.main-section{
+.main-section {
     display: flex;
     flex-direction: column;
-    gap: 4.8rem;
-    padding: 3.2rem 3rem 1.8rem 3rem;
 }
 
 
@@ -70,44 +68,67 @@ article {
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
+    padding: 3.2rem 3rem 3rem 3rem;
 }
 
-.article__title{
+.article__title {
     color: var(--grey-900);
 }
 
-.article__text{
+.article__text {
     color: var(--grey-500);
 }
 
-.user-section{
+.user-section {
     display: flex;
     justify-content: space-between;
+    padding: 2.2rem 3rem;
 }
 
-.user{
+.user {
     display: flex;
     gap: 1.6rem;
 }
 
-.user__image{
+.user__image {
     height: 4rem;
     border-radius: 50%;
 }
 
-.user__name{
+.user__name {
     color: var(--grey-900);
 }
 
-.user__post-date{
+.user__post-date {
     color: var(--grey-400);
 }
 
-.share-button{
-    background-color: var(--grey-200);
+.share-button {
     border-radius: 50%;
     border: none;
     height: 3.2rem;
     width: 3.2rem;
     align-self: center;
+}
+
+
+.user-section--share-modifier {
+    background-color: var(--grey-900);
+    border-radius: 0 0 1rem 1rem;
+}
+
+
+.share-section {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.share-section__text {
+    color: var(--grey-400);
+}
+
+.share-section__icons {
+    display: flex;
+    gap: 1.6rem;
 }
