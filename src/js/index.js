@@ -8,6 +8,8 @@ let userSection = document.querySelector('#user-section');
 
 let shareSection = document.querySelector('#share-section');
 
+let tabletSectionActive = document.querySelector('#tablet-share-section-active')
+
 
 
 shareButton.addEventListener('click', function () {
@@ -25,6 +27,17 @@ shareButton.addEventListener('click', function () {
         user.classList.toggle('hidden');
         shareSection.classList.toggle('hidden');
         userSection.classList.toggle('user-section--share-modifier');
+    }
+
+    else{
+        if (shareButtonIcon.getAttribute('src') === './src/images/new-icon-share.svg') {
+            shareButtonIcon.setAttribute('src', './src/images/new-icon-share-modified.svg');
+        } else {
+            shareButtonIcon.setAttribute('src', './src/images/new-icon-share.svg');
+        }
+        tabletSectionActive.classList.toggle('hidden');
+
+
     }
 
 
