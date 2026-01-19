@@ -109,13 +109,18 @@ article {
     height: 3.2rem;
     width: 3.2rem;
     align-self: center;
+    cursor: pointer;
 }
 
 
-.user-section--share-modifier {
-    background-color: var(--grey-900);
-    border-radius: 0 0 1rem 1rem;
+
+.share-button__icon{
+    width: 3.2rem;
+    height: 3.2rem;
 }
+
+
+
 
 
 .share-section {
@@ -131,4 +136,29 @@ article {
 .share-section__icons {
     display: flex;
     gap: 1.6rem;
+}
+
+.share-section__icons img{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Modifiers */
+
+/* .share-button--modifier{
+    background-color: var(--grey-500);
+}
+
+.user-section--share-modifier {
+    background-color: var(--grey-900);
+    border-radius: 0 0 1rem 1rem;
+} */
+
+.hidden{
+    display: none;
 }
