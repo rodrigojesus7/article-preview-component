@@ -151,14 +151,39 @@ article {
 
 /* Modifiers */
 
-/* .share-button--modifier{
+.share-button--modifier{
     background-color: var(--grey-500);
 }
 
 .user-section--share-modifier {
     background-color: var(--grey-900);
     border-radius: 0 0 1rem 1rem;
-} */
+}
+
+
+.tablet-share-section-active{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+
+    width: 24.8rem;
+    height: 5.5rem;
+
+    border-radius: 1rem;
+
+    background-color: var(--grey-900);
+
+    right: 1.3rem;
+    bottom: 35rem;
+}
+
+
+.share-section__icons{
+    height: 1.6rem;
+}
+
 
 .hidden{
     display: none;
