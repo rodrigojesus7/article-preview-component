@@ -115,7 +115,7 @@ article {
 
 
 
-.share-button__icon{
+.share-button__icon {
     width: 3.2rem;
     height: 3.2rem;
 }
@@ -139,7 +139,7 @@ article {
     gap: 1.6rem;
 }
 
-.share-section__icons img{
+.share-section__icons img {
     cursor: pointer;
 }
 
@@ -151,7 +151,7 @@ article {
 
 /* Modifiers */
 
-.share-button--modifier{
+.share-button--modifier {
     background-color: var(--grey-500);
 }
 
@@ -161,9 +161,9 @@ article {
 }
 
 
-.tablet-share-section-active{
-    position: absolute;
+.tablet-share-section-active {
     display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
     gap: 2.4rem;
@@ -175,14 +175,26 @@ article {
 
     background-color: var(--grey-900);
 
+    top: 51.5%;
+    right: 2%;
+
+}
+
+.triangle{
+    position: absolute;
+    top: 85%;
+    right: 39%;
+    border-top: 2rem solid var(--grey-900);
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid transparent;
 }
 
 
-.share-section__icons{
+.share-section__icons {
     height: 1.6rem;
 }
 
 
-.hidden{
+.hidden {
     display: none;
 }

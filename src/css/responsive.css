@@ -30,6 +30,14 @@
         padding: 0 3.6rem 4.1rem 3.2rem;
     }
 
+    .share-section__icons img {
+        height: 2rem;
+    }
+
+
+
+
+
 }
 
 
@@ -39,7 +47,14 @@
         padding-right: 15rem;
     }
 
+    .tablet-share-section-active {
+        top: 49%;
+        right: 8.3%;
+    }
+
 }
+
+
 
 @media (min-width: 90rem) {
     body {
@@ -58,6 +73,12 @@
 
     .user-section {
         padding: 0 4rem 3rem 4rem;
+    }
+
+
+    .tablet-share-section-active {
+        top: 49.3%;
+        right: 20.45%;
     }
 
 }
